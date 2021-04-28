@@ -22,7 +22,7 @@ for x in range(max(clusters_of_users)+1):
 clusters_of_users=clusters_of_users.tolist()
 
 #=====================================================================================================================================
-
+# Adding a new useless comment here 
 
 # connect to ElasticSearch
 es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
